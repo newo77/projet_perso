@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Merriweather&display=swap');
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.liste{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid mediumvioletred;
+    margin-top: 2px;
+    
+}
+
+nav .bi{
+    color: mediumvioletred;
+}
+
+nav .font{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    color: mediumvioletred;
+    font-family: 'Dosis', sans-serif  ;
+}
+
+
+nav .onglets{
+    margin-bottom: 5px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+
+
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+ }
+
+
+ 
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background-size: cover;
+    color: black;
+    padding: 40px;
+    
+}
+ 
+
+header h1{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+
+
+.container header h4{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.gallery h2{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 420px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  footer{
+    margin-top: 60px;
+    border-top: 5px solid mediumvioletred;
+    background-color: black;
+    color: white;
+    padding: 30px 100px;
+    
+}
+
+footer h1{
+    font-family:'Merriweather, sans-serif';
+    border-bottom: 1px solid white ;
+    width: 14%;
+    font-size: 45px;
+    padding-bottom: 5px;
+    
+}
+
+footer .services{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+footer .services .service p{
+   
+   padding: 10px;
+}
+
+footer #contact{
+    color:rgb(181,181,181);
+}  
+ 
+ 
+ 
+@media screen and (max-width: 680px){
+     
+     
+ }
